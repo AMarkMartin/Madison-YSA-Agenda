@@ -4,7 +4,9 @@ Use this as a quick checklist when updating the agenda each week.
 
 ## ✅ Weekly Update Checklist
 
-- [ ] Update header date (line ~13): `Week of [DATE]`
+- [ ] Update header date (line ~14): `Week of [DATE]`
+- [ ] Update inspirational quote (line ~20-22)
+- [ ] (Optional) Add custom image to replace placeholder
 - [ ] Update opening hymn
 - [ ] Update invocation speaker
 - [ ] Update sacrament hymn
@@ -14,7 +16,7 @@ Use this as a quick checklist when updating the agenda each week.
 - [ ] Update closing hymn
 - [ ] Update benediction speaker
 - [ ] Update announcements (add/remove as needed)
-- [ ] Update footer date (line ~146): `Last updated: [DATE]`
+- [ ] Update footer date (line ~158): `Last updated: [DATE]`
 - [ ] Save file
 - [ ] Commit and push changes
 
@@ -22,6 +24,8 @@ Use this as a quick checklist when updating the agenda each week.
 
 Search for these in `index.html`:
 - `Week of` - Header date
+- `inspiration-quote` - Inspirational quote section
+- `placeholder-image` - Image placeholder (to add custom image)
 - `Opening Hymn` - First agenda item
 - `Announcements` - Section for announcements
 - `Last updated` - Footer date
