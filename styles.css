@@ -66,10 +66,77 @@ section h3 {
     border-bottom: 3px solid #667eea;
 }
 
+/* Inspiration Section */
+.inspiration {
+    margin-bottom: 40px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.inspiration-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.inspiration-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.placeholder-image {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.placeholder-image::after {
+    content: "Add your inspirational image here";
+    text-align: center;
+    padding: 20px;
+}
+
+.inspiration-quote {
+    padding: 30px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.inspiration-quote blockquote {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.inspiration-quote p {
+    font-size: 1.3em;
+    font-style: italic;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.inspiration-quote cite {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: #667eea;
+    font-weight: 600;
+    font-style: normal;
+}
+
 /* Agenda Items */
 .agenda-item {
-    display: flex;
-    gap: 20px;
     padding: 20px;
     margin-bottom: 15px;
     background: #f8f9fa;
@@ -84,15 +151,8 @@ section h3 {
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
 }
 
-.time {
-    font-weight: 700;
-    color: #667eea;
-    min-width: 80px;
-    font-size: 1em;
-}
-
 .details {
-    flex: 1;
+    width: 100%;
 }
 
 .details strong {
@@ -208,13 +268,16 @@ footer p {
         font-size: 1.2em;
     }
 
-    .agenda-item {
-        flex-direction: column;
-        gap: 10px;
+    .inspiration-image {
+        height: 200px;
     }
 
-    .time {
-        min-width: auto;
+    .inspiration-quote {
+        padding: 20px;
+    }
+
+    .inspiration-quote p {
+        font-size: 1.1em;
     }
 
     .resource-links {

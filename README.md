@@ -16,10 +16,24 @@ Updating the agenda is simple! Just edit the `index.html` file:
    <p class="date">Week of October 22, 2025</p>
    ```
 
-3. Modify the agenda items to match the week's schedule. Each agenda item looks like this:
+3. Update the inspirational quote in the inspiration section:
+   ```html
+   <blockquote>
+       <p>"Your inspirational quote here"</p>
+       <cite>— Scripture Reference</cite>
+   </blockquote>
+   ```
+
+4. (Optional) Add your own image by replacing the placeholder div:
+   ```html
+   <div class="inspiration-image">
+       <img src="your-image-url.jpg" alt="Inspirational image">
+   </div>
+   ```
+
+5. Modify the agenda items to match the week's schedule. Each agenda item looks like this:
    ```html
    <div class="agenda-item">
-       <span class="time">11:00 AM</span>
        <div class="details">
            <strong>Opening Hymn</strong>
            <p>Hymn #2 - "The Spirit of God"</p>
@@ -27,17 +41,17 @@ Updating the agenda is simple! Just edit the `index.html` file:
    </div>
    ```
 
-4. Update the announcements section as needed:
+6. Update the announcements section as needed:
    ```html
    <li>Your announcement here</li>
    ```
 
-5. Update the "Last updated" date in the footer:
+7. Update the "Last updated" date in the footer:
    ```html
    <p class="update-info">Last updated: October 22, 2025</p>
    ```
 
-6. Save the file and commit your changes:
+8. Save the file and commit your changes:
    ```bash
    git add index.html
    git commit -m "Update agenda for week of [DATE]"
