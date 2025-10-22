@@ -2,7 +2,30 @@
 
 Use this as a quick checklist when updating the agenda each week.
 
-## ✅ Weekly Update Checklist
+## 🐍 Python Script Method (Recommended)
+
+**Fastest and easiest method:**
+
+1. Edit `update_agenda.py` (lines 11-103):
+   - Update `WEEK_DATE`
+   - Update `QUOTE` 
+   - Modify `AGENDA_ITEMS`
+   - Update `ANNOUNCEMENTS`
+2. Run: `python update_agenda.py`
+3. Commit: 
+   ```bash
+   git add index.html update_agenda.py
+   git commit -m "Update agenda for week of [DATE]"
+   git push
+   ```
+
+**See `EXAMPLE_UPDATE.md` for detailed examples.**
+
+---
+
+## ✅ Manual HTML Update Checklist
+
+If you prefer to edit HTML directly:
 
 - [ ] Update header date (line ~14): `Week of [DATE]`
 - [ ] Update inspirational quote (line ~20-22)
