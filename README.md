@@ -8,7 +8,44 @@ Once deployed, the website will be available at: `https://[your-username].github
 
 ## 📝 How to Update the Agenda Weekly
 
-Updating the agenda is simple! Just edit the `index.html` file:
+**Option 1: Use the Python Script (Recommended)**
+
+The easiest way to update is using the automated `update_agenda.py` script:
+
+1. Open `update_agenda.py` in any text editor
+2. Edit the configuration section (lines 11-103):
+   ```python
+   WEEK_DATE = "October 29, 2025"
+   
+   QUOTE = {
+       "text": "Your inspirational quote here",
+       "citation": "Scripture Reference"
+   }
+   
+   AGENDA_ITEMS = [
+       {"title": "Opening Hymn", "description": "Hymn #2"},
+       # ... add or modify items
+   ]
+   
+   ANNOUNCEMENTS = [
+       "Your announcement here",
+       # ... add or modify announcements
+   ]
+   ```
+3. Run the script to generate the updated HTML:
+   ```bash
+   python update_agenda.py
+   ```
+4. Commit and push:
+   ```bash
+   git add index.html update_agenda.py
+   git commit -m "Update agenda for week of [DATE]"
+   git push
+   ```
+
+**Option 2: Manual HTML Editing**
+
+Alternatively, you can manually edit `index.html`:
 
 1. Open `index.html` in any text editor
 2. Update the date in the header:
