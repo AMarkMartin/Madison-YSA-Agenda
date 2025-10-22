@@ -1,6 +1,34 @@
-# Example: How to Update the Agenda
+# How to Update the Agenda
 
-This guide shows you exactly what to change each week.
+**NEW!** You can now use the automated Python script instead of manually editing HTML.
+
+## Option 1: Use the Python Script (Recommended)
+
+The easiest way to update the agenda is using the `update_agenda.py` script:
+
+1. Open `update_agenda.py` in any text editor
+2. Edit the configuration section at the top (lines 11-103):
+   - Update `WEEK_DATE` 
+   - Update `QUOTE` text and citation
+   - Modify `AGENDA_ITEMS` - add, remove, or edit items
+   - Update `ANNOUNCEMENTS` - add, remove, or edit announcements
+   - Update `RESOURCES` if needed
+3. Run the script:
+   ```bash
+   python update_agenda.py
+   ```
+4. Commit and push your changes:
+   ```bash
+   git add index.html update_agenda.py
+   git commit -m "Update agenda for week of [DATE]"
+   git push
+   ```
+
+The script will automatically generate the updated `index.html` file with today's date in the footer.
+
+## Option 2: Manual HTML Editing
+
+If you prefer to edit the HTML directly, this guide shows you exactly what to change each week.
 
 ## Step 1: Update the Date
 
