@@ -4,7 +4,7 @@ A simple, clean website for displaying the weekly sacrament meeting agenda with 
 
 ## 🌐 View the Website
 
-Once deployed, the website will be available at: `https://[your-username].github.io/Madison-YSA-Agenda/`
+Once deployed, the website will be available at: `https://AMarkMartin.github.io/Madison-YSA-Agenda/`
 
 ## 📝 How to Update the Agenda Weekly
 

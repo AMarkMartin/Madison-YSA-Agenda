@@ -16,7 +16,7 @@ from datetime import datetime
 # ============================================================================
 
 # Week date (displayed at the top)
-WEEK_DATE = "October 22, 2025"
+WEEK_DATE = "October 26, 2025"
 
 # Inspirational Quote
 QUOTE = {
@@ -25,25 +25,44 @@ QUOTE = {
 }
 
 # Optional image URL (leave empty string for placeholder)
-IMAGE_URL = ""
+IMAGE_URL = "C:\\Users\\ammartin36.ENGR\\OneDrive - UW-Madison\\Documents\\Currently_Working_On\\calling\\Madison-YSA-Agenda\\calling_the_fishermen.jpeg"
 
 # Agenda Items - Each item has a title and description
 AGENDA_ITEMS = [
     {
-        "title": "Opening Hymn",
-        "description": "Hymn #2 - \"The Spirit of God\""
+        "title": "Conducting",
+        "description": "Bishop Clinton"
     },
     {
-        "title": "Invocation",
-        "description": "Brother Smith"
+        "title": "Presiding",
+        "description": ""
+    },
+    {
+        "title": "Announcements",
+        "description": "Tithing Declaration: Talk to Daniel or see QR code below<br>" +
+                        " <br>" +
+                        " <br>" + 
+                        ""
+    },
+    {
+        "title": "Opening Hymn",
+        "description": ""
+    },
+    {
+        "title": "Opening Prayer",
+        "description": ""
     },
     {
         "title": "Ward Business",
-        "description": "Announcements and upcoming events"
+        "description": ""
+    },
+    {
+        "title": "Stake Business",
+        "description": ""
     },
     {
         "title": "Sacrament Hymn",
-        "description": "Hymn #169 - \"As Now We Take the Sacrament\""
+        "description": ""
     },
     {
         "title": "Sacrament",
@@ -51,7 +70,7 @@ AGENDA_ITEMS = [
     },
     {
         "title": "Speaker",
-        "description": "Sister Johnson - \"Faith in Jesus Christ\""
+        "description": "Eleanor Miller"
     },
     {
         "title": "Musical Number",
@@ -59,27 +78,40 @@ AGENDA_ITEMS = [
     },
     {
         "title": "Speaker",
-        "description": "Brother Williams - \"Gratitude and Service\""
+        "description": "Matthew Jackson"
     },
     {
         "title": "Closing Hymn",
-        "description": "Hymn #220 - \"Lord, We Ask Thee Ere We Part\""
+        "description": ""
     },
     {
-        "title": "Benediction",
-        "description": "Sister Davis"
+        "title": "Closing Prayer",
+        "description": ""
     }
 ]
 
 # Announcements
 ANNOUNCEMENTS = [
-    "Youth Conference - November 15-17",
-    "Service Project - This Saturday at 9:00 AM",
-    "Institute classes continue Wednesday evenings at 7:00 PM"
+    "Institute classes continue Wednesday evenings at 7:30 PM"
 ]
 
 # Resources - Each resource has an icon (emoji), text, and URL
 RESOURCES = [
+    {
+        "icon": "⛪",
+        "text": "Ward Website",
+        "url": "https://local.churchofjesuschrist.org/en/units/us/wi/madison-ysa-ward"
+    },
+    {
+        "icon": "💻",
+        "text": "Ward Discord",
+        "url": "https://discord.gg/KychmWchBc"
+    },
+    {
+        "icon": "🗣️",
+        "text": "Ward Facebook",
+        "url": "https://www.facebook.com/groups/8627328790/"
+    },
     {
         "icon": "📖",
         "text": "Church Website",
@@ -107,8 +139,8 @@ RESOURCES = [
     },
     {
         "icon": "💬",
-        "text": "Get Help & Support",
-        "url": "https://www.churchofjesuschrist.org/get-help"
+        "text": "Meeting with Bishop Clinton",
+        "url": "https://calendly.com/ysamadison/15min?back=1&month=2024-04"
     }
 ]
 
