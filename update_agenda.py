@@ -25,7 +25,7 @@ QUOTE = {
 }
 
 # Optional image URL (leave empty string for placeholder)
-IMAGE_URL = "C:\\Users\\ammartin36.ENGR\\OneDrive - UW-Madison\\Documents\\Currently_Working_On\\calling\\Madison-YSA-Agenda\\calling_the_fishermen.jpeg"
+IMAGE_URL = "images/calling_the_fishermen.jpeg"
 
 # Agenda Items - Each item has a title and description
 AGENDA_ITEMS = [
