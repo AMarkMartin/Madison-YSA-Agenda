@@ -185,4 +185,33 @@
         </footer>
     </div>
 </body>
+<!-- Script: sync quote width with displayed image width for visual alignment -->
+<script>
+    (function(){
+        const debounce = (fn, ms=100) => { let t; return (...a)=>{ clearTimeout(t); t = setTimeout(()=>fn(...a), ms); }; };
+        function syncQuoteWidth(){
+            const img = document.querySelector('.inspiration-image img');
+            const quote = document.querySelector('.inspiration-quote');
+            if(!img || !quote) return;
+            // Use the rendered image width (clientWidth) so the quote matches the visible image
+            const w = img.clientWidth;
+            if(w > 0){
+                quote.style.width = w + 'px';
+                quote.style.margin = '0 auto';
+            } else {
+                // Fallback: remove inline width so CSS controls layout
+                quote.style.width = '';
+            }
+        }
+
+        const runSync = debounce(syncQuoteWidth, 80);
+        window.addEventListener('resize', runSync);
+        window.addEventListener('orientationchange', runSync);
+        window.addEventListener('load', ()=>{
+            const img = document.querySelector('.inspiration-image img');
+            if(!img) return syncQuoteWidth();
+            if(img.complete) syncQuoteWidth(); else img.addEventListener('load', syncQuoteWidth);
+        });
+    })();
+</script>
 </html>
