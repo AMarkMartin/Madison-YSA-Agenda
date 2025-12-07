@@ -31,7 +31,7 @@ IMAGE_URL = "images/calling_the_fishermen.jpeg"
 AGENDA_ITEMS = [
     {
         "title": "Conducting",
-        "description": "Bishop Clinton"
+        "description": "Grant"
     },
     {
         "title": "Presiding",
@@ -40,17 +40,19 @@ AGENDA_ITEMS = [
     {
         "title": "Announcements",
         "description": "Tithing Declaration: Talk to Daniel or see QR code below<br>" +
-                        " <br>" +
-                        " <br>" + 
+                        " <br>" + "Regional YSA Dance, Dec 27, 6-9pm, Neenah"
+                        " <br>" + "First Presidency Devotional tonight"
+                        " <br>" + "Ward Christmas party - Saturday - invite friends and bring a white elephant gift"
+                        " <br>" + "Sunday meetings will begin at 9 AM in 2026"
                         ""
     },
     {
         "title": "Opening Hymn",
-        "description": ""
+        "description": "203 Angels We Have Heard on High"
     },
     {
         "title": "Opening Prayer",
-        "description": ""
+        "description": "Jacob Bills"
     },
     {
         "title": "Ward Business",
@@ -62,31 +64,23 @@ AGENDA_ITEMS = [
     },
     {
         "title": "Sacrament Hymn",
-        "description": ""
+        "description": "188 Thy Will, O Lord, Be Done"
     },
     {
         "title": "Sacrament",
         "description": "Administration of the Sacrament"
     },
     {
-        "title": "Speaker",
-        "description": "Eleanor Miller"
-    },
-    {
-        "title": "Musical Number",
-        "description": "Sister Anderson - \"I Know That My Redeemer Lives\""
-    },
-    {
-        "title": "Speaker",
-        "description": "Matthew Jackson"
+        "title": "Fast and Testimony Meeting",
+        "description": ""
     },
     {
         "title": "Closing Hymn",
-        "description": ""
+        "description": "201 Joy to the World"
     },
     {
         "title": "Closing Prayer",
-        "description": ""
+        "description": "Parker Smith"
     }
 ]
 
@@ -136,6 +130,16 @@ RESOURCES = [
         "icon": "📅",
         "text": "Church Calendar",
         "url": "https://www.churchofjesuschrist.org/calendar"
+    },
+    {
+        "icon": "📚",
+        "text": "Participate in Ward Music",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSeoICCUoUSlmm_jvNJ6oiN9djGkn0XKiVsZZJM55yRK2Rrong/viewform?usp=sharing&ouid=109596045431617318151"
+    },
+    {
+        "icon": "📚",
+        "text": "Sign up for a Musical Number",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSevEiFzwyJOWaN2MZiyMsc9mQVddy-1vz8zTaLPRg_BQIkmZw/viewform?usp=header"
     },
     {
         "icon": "💬",
