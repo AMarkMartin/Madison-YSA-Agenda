@@ -16,7 +16,7 @@ from datetime import datetime
 # ============================================================================
 
 # Week date (displayed at the top)
-WEEK_DATE = "October 26, 2025"
+WEEK_DATE = "December 14, 2025"
 
 # Inspirational Quote
 QUOTE = {
@@ -40,19 +40,19 @@ AGENDA_ITEMS = [
     {
         "title": "Announcements",
         "description": "Tithing Declaration: Talk to Daniel or see QR code below<br>" +
-                        " <br>" + "Regional YSA Dance, Dec 27, 6-9pm, Neenah"
-                        " <br>" + "First Presidency Devotional tonight"
-                        " <br>" + "Ward Christmas party - Saturday - invite friends and bring a white elephant gift"
-                        " <br>" + "Sunday meetings will begin at 9 AM in 2026"
+                        " <br>" + ""
+                        " <br>" + ""
+                        " <br>" + ""
+                        " <br>" + ""
                         ""
     },
     {
         "title": "Opening Hymn",
-        "description": "203 Angels We Have Heard on High"
+        "description": "209 Hark! The Herald Angels Sing"
     },
     {
         "title": "Opening Prayer",
-        "description": "Jacob Bills"
+        "description": "Amy Rich"
     },
     {
         "title": "Ward Business",
@@ -64,15 +64,23 @@ AGENDA_ITEMS = [
     },
     {
         "title": "Sacrament Hymn",
-        "description": "188 Thy Will, O Lord, Be Done"
+        "description": "178 O Lord of Hosts"
     },
     {
         "title": "Sacrament",
         "description": "Administration of the Sacrament"
     },
     {
-        "title": "Fast and Testimony Meeting",
-        "description": ""
+        "title": "Speaker",
+        "description": "Katie Gaertner, 1st councilor in the Stake YW Presidency"
+    },
+    {
+        "title": "Intermediate Hymn",
+        "description": "212 Far, Far Away on Judea’s Plains"
+    },
+    {
+        "title": "Speaker",
+        "description": "Connie Mathison, Stake RS President"
     },
     {
         "title": "Closing Hymn",
@@ -80,7 +88,7 @@ AGENDA_ITEMS = [
     },
     {
         "title": "Closing Prayer",
-        "description": "Parker Smith"
+        "description": "Emily Lym"
     }
 ]
 
